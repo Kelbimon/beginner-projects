@@ -13,6 +13,6 @@ repo will be divided to different projects for each different languages.<br />
 As time goes on, more projects will be added! <br />
 
 Java Projects:
-1. [Hash Pyramid](Pyramid.java)
-2. [Caesar Cipher](CaesarCipher.java)
-3. [Conway's Cellular Automata: Game of Life](GameOfLife.java)
+1. [Hash Pyramid](https://github.com/Kelbimon/beginner-projects/blob/master/src/myPackage/Pyramid.java)
+2. [Caesar Cipher](https://github.com/Kelbimon/beginner-projects/blob/master/src/myPackage/CaesarCipher.java)
+3. [Conway's Cellular Automata: Game of Life](https://github.com/Kelbimon/beginner-projects/blob/master/src/myPackage/GameOfLife.java)
