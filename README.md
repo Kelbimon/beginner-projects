@@ -13,6 +13,6 @@ repo will be divided to different projects for each different languages.<br />
 As time goes on, more projects will be added! <br />
 
 Java Projects:
-1. Hash pyramid 
-2. Caesar Cypher
-3. Conway's game of life cellular automata
+1. [Hash Pyramid](Pyramid.java)
+2. [Caesar Cipher](CaesarCipher.java)
+3. [Conway's Cellular Automata: Game of Life](GameOfLife.java)
