@@ -15,3 +15,4 @@ As time goes on, more projects will be added! <br />
 Java Projects:
 1. Hash pyramid 
 2. Caesar Cypher
+3. Conway's game of life cellular automata
