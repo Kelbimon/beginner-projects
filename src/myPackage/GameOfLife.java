@@ -1,6 +1,7 @@
 package myPackage;
 import java.util.Random;
 import java.lang.*;
+import java.util.Scanner;
 
 public class GameOfLife {
 
@@ -109,28 +110,44 @@ public class GameOfLife {
 
     // main function
     public static void main(String[] args) throws InterruptedException {
+
         // main driver code
-        int generation = 100;
+
+        // get user input for generations
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter number of generations for game of life:  ");
+        // store to variable
+        int generation = input.nextInt();
+        System.out.println();
+
+        // get user input for dimension of board
+        Scanner input1 = new Scanner(System.in);
+        System.out.print("Enter board square dimension for Game of Life:  ");
+        // store to variable
+        int dimension = input1.nextInt();
+        System.out.println();
+
+
+        /* creating empty world */
         int counting = 0;
-        // creating empty world
-       board = create_empty_world(10, 10);
+       board = create_empty_world(dimension, dimension);
 
         // fill board
-        board = fill_world(board);
+        fill_world(board);
 
         // print out world
         print_world(board);
-        System.out.println("=================================");
-        Thread.sleep(500);
+        Thread.sleep(100);
 
         // loop world generation
         while (counting <= generation){
             get_next_generation();
             print_world(board);
-            System.out.println("=================================");
             counting++;
+
+            // ide does not support the clear screen function for now, update later when supported
             clearScreen();
-            Thread.sleep(500);
+            Thread.sleep(100);
 
         }
 
