@@ -121,10 +121,9 @@ public class GameOfLife {
         System.out.println();
 
         // get user input for dimension of board
-        Scanner input1 = new Scanner(System.in);
         System.out.print("Enter board square dimension for Game of Life:  ");
         // store to variable
-        int dimension = input1.nextInt();
+        int dimension = input.nextInt();
         System.out.println();
 
 
